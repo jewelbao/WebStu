@@ -1,0 +1,46 @@
+ /* 元素选择器-单元素
+ html {
+     font-size: 20px;
+     font-family: 'Ranga', cursive;
+     background-color: cadetblue;
+ }
+
+ img {
+     display: block;
+     width: 100px;
+     height: auto;
+     margin: 0 auto;
+ }
+
+ p {
+     color: chocolate;
+     width: 100%;
+     border: 1px solid blueviolet;
+     margin: 0 auto;
+     padding: 10px;
+     text-shadow: 4px 4px 1px black
+ }*/
+
+ /* 元素选择器-多元素 */
+ /* ol,
+ h1 {
+     color: bisque;
+     line-height: 2;
+     letter-spacing: 5px;
+     text-align: center;
+ } */
+
+ /* id选择器--选择 <p id="my-id"> 或 <a id="my-id"> */
+ /* #my-id {
+     color: violet;
+ } */
+
+ /* 类选择器--选择 <p class="my-class"> 和 <a class="my-class"> */
+ /* .my-class {
+     color: aqua;
+ } */
+
+ /* 伪（Pseudo）类选择器--仅在鼠标指针悬停在链接上时选择 <a> */
+ /* a:hover {
+     color: black;
+ }  */

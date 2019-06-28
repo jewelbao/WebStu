@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单/输入</title>
+</head>
+
+<body>
+
+    <form action="form.php" method="GET">
+        姓名：<input type="text" name="name"><input type="button" value="检查是否可用">
+
+        <br>
+
+        年龄：<input type="text" name="age">
+
+        <br>
+
+        密码：<input type="password" name="psw">
+
+        <br>
+
+        性别：<input type="radio" name="sex" value="male">男
+        <input type="radio" name="sex" value="female">女
+
+        <br>
+
+        喜欢的颜色： <input type="checkbox" name="color" value="black">黑色
+        <input type="checkbox" name="color" value="white">白色
+        <input type="checkbox" name="color" value="yellow">黄色
+        <input type="checkbox" name="color" value="green">绿色
+
+        <br>
+
+        验证码：<input type="text" name="validCode"><input type="submit" value="提交">
+
+        <br>
+
+        车型：
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <textarea name="extra" id="extra" cols="30" rows="10">
+            补充信息
+        </textarea>
+
+        <fieldset>
+            <legend>更多信息</legend>
+            爱好：<input type="text" size="30">
+
+            <br>
+
+            电话：<input type="text">
+
+            <br>
+
+            住址：<input type="text" size="10">
+        </fieldset>
+
+        <br>
+
+        <input type="reset" value="重置">
+    </form>
+
+</body>
+
+</html>

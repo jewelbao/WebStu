@@ -1,0 +1,17 @@
+.headTitle {
+    font-family: 微软雅黑;
+    font-size: 26px;
+    font-weight: bold; 
+    border-bottom: 1px solid green;
+    color: green;
+}
+
+.normalText {
+    font-family: 'Ranga', cursive;
+    font-size: 18px;
+    color: green
+}
+
+.tableStyle { 
+    border-color: lawngreen;  
+}
